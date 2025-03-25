@@ -1,0 +1,68 @@
+p::after{
+    content: url(../IMAGE/image.png);
+}
+
+
+
+h1::after{
+    content:"👀😉";
+
+}
+
+h1::before{
+    content:"📽🎞🎬";
+    
+}
+p::first-word{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold ;
+}
+
+p::first-line{
+    color: cadetblue;
+}
+
+p::selection{
+         color:burlywood;
+         background-color: chartreuse;
+}
+
+li::marker{
+    font-size: 20px;
+    content:"🎦";
+
+}
+
+ol::marker{
+    font-size: 20px;
+    content:"🎞";
+}
+/* adding hover */
+a:hover{
+    color: brown;
+    background-color: yellow;
+}
+
+/*Pseudo classes*/
+
+/* unvisited link*/
+a:link{
+    color:rgb(220, 85, 233)
+    
+}
+
+/*  visited list*/
+a:visited{
+    color: rgb(105, 228, 4);
+}
+
+/*active list*/
+
+a:active{
+    color: rgb(224, 48, 224);
+}
+
+div:hover{
+    
+}
