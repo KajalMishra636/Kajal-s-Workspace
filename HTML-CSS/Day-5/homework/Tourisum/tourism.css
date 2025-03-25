@@ -1,0 +1,530 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e0542;
+    padding: 10px 20px;
+    color: #a7e6f1;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar .nav-links li a {
+    color: #6ba4e5;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .nav-links li a:hover {
+    color: #e37ac7;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-bar button:hover {
+    background-color: #92e648;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar .nav-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .search-bar {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .search-bar input {
+      width: 70%;
+    }
+  }
+  
+
+  
+.logo-img {
+    height: 40px; /* Adjust size based on your logo */
+    width: auto;
+}
+
+.icon:hover {
+    color: #64ff61; /* Vibrant color for hover effect, matching a travel theme */
+}
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-icons {
+        gap: 10px;
+    }
+    .icon {
+        font-size: 20px;
+    }
+}
+
+/* Banner styles */
+.banner {
+  background-image: url('img/banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  }
+  
+  .banner h1 {
+  color: #fff;
+  font-size: 48px;
+  margin-top: 150px;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+  }
+
+
+  div~h2{
+    color: #000;
+    background-color: #549676;
+    border: 50px;
+  }
+
+  h2{
+    text-align: center;
+    text-transform:inherit ;
+    font-display:inherit;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+h1{
+text-align: center;
+display: inline-block;
+margin-left: auto;
+font-family:'Times New Roman', Times, serif;
+font-size: 50px;
+
+}
+h4{
+  text-align: center;
+display: inline-block;
+margin-left: auto;
+font-family:'Times New Roman', Times, serif;
+font-size: 50px;
+text-decoration: underline;
+}
+
+h6{
+  text-align: center;
+  display: inline;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+}
+
+
+img{
+  border-radius: 5%;
+  border-color: #000;
+  border-width: 20px;
+  
+  
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 40px;
+}
+
+.box1{
+  background-color: rgb(209, 170, 233);
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border: 20px;
+  margin: 30px;
+  display: inline-block;
+
+}
+
+.explore-btn {
+  background-color: #b18ff5;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:all  0.3s ease;
+}
+
+.explore-btn:hover {
+  background-color: #0a0d10;
+}
+
+.box2{
+  background-color: rgb(209, 170, 233);
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border: 20px;
+  margin: 30px;
+  display: inline-block;
+
+}
+.box3{
+  background-color:rgb(209, 170, 233);
+  height: 300px;
+  width: 300px; 
+  padding: 20px;
+  border: 20px;
+  margin: 30px;
+  display: inline-block;
+}
+
+/*universal selector*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #fff; /* White background */
+  padding: 10px 0;
+}
+
+/* Style the unordered list to display items horizontally */
+ul {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Use flexbox to align items in a row */
+  justify-content: center; /* Center the items */
+  gap: 50px; /* Space between the links */
+}
+
+/* Style the list items */
+li {
+  display: inline-block;
+}
+
+/* Style the links */
+a {
+  text-decoration: none; /* Remove default underline */
+  color: #333; /* Dark gray text color */
+  font-family: Arial, sans-serif; /* Font style */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  position: relative; /* For positioning the underline */
+  padding-bottom: 5px; /* Space for the underline */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Style the active link with an orange underline */
+a.active::after {
+  content: ''; /* Empty content for the underline */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%; /* Full width of the link */
+  height: 2px; /* Thickness of the underline */
+  background-color: #f28c38; /* Orange color */
+}
+
+/* Hover effect for non-active links */
+a:hover:not(.active)::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f28c38;
+}
+
+/* Change text color on hover */
+a:hover {
+  color: #f28c38; /* Orange text on hover */
+}
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the container */
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 20px; /* Space between cards */
+  padding: 20px;
+  max-width: 1200px; /* Limit the width of the container */
+  margin: 0 auto; /* Center the container */
+}
+
+/* Style for all cards */
+.card {
+  background-color: #fff;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Ensure image and content stay within rounded corners */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+#f1{
+  height: 200px;
+  width: 550px;
+  display: inline-block;
+  padding: 5px;
+  margin:20px;
+}
+#f2{
+  height:200px;
+  width:300px;
+  display: inline-block;
+  padding:5px;
+  margin:20px;
+}
+#f3{
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  padding: 5px;
+  margin: 20px;
+
+}
+
+#f4
+{
+  height: 100px;
+  width: 200px;
+  display: block;
+  padding: 5px;
+  margin: 20px;
+
+}
+
+#f5
+{
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  padding: 5px;
+  margin: 20px;
+}
+#f6{
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  padding: 5px;
+  margin: 20px;
+}
+#f7{
+  height: 100px;
+  width: 200px;
+  display: inline-block;
+  padding: 5px;
+  margin: 20px;
+
+}
+
+
+
+
+
+/* Hover effect for cards */
+.card:hover {
+  transform: translateY(-5px); /* Lift the card on hover */
+}
+
+/* Style for the large cards (top row) */
+.card.large {
+  grid-column: span 1; /* Each large card takes 1 column */
+  height: 300px; /* Fixed height for large cards */
+}
+
+/* Style for the small cards (bottom row) */
+.card.small {
+  grid-column: span 1; /* Each small card takes 1 column */
+  height: 200px; /* Fixed height for small cards */
+}
+
+/* Ensure the first large card takes 2 columns */
+.card.large:first-child {
+  grid-column: span 2; /* First large card spans 2 columns */
+}
+
+/* Style the image */
+.card img {
+  width: 100%;
+  height: 70%; /* Image takes 70% of the card height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+/* Style the card content */
+.card-content {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style the destination name */
+.card-content h3 {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* Style the package count */
+.card-content p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Adjust font sizes for smaller cards */
+.card.small .card-content h3 {
+  font-size: 14px;
+}
+
+.card.small .card-content p {
+  font-size: 12px;
+}
+
+
+ 
+
+ 
+.footer {
+  background-color: #2c3e50; /* Dark blue background */
+  color: #ecf0f1; /* Light text color */
+  padding: 20px 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.footer-content p {
+  font-size: 14px;
+}
+
+.destination {
+  font-weight: bold;
+  color: #1abc9c; /* Teal accent for destination name */
+}
+
+.footer-content a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  color: #1abc9c;
+}
+
+
+#r1{
+  height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding: 5px;
+    margin:20px;
+
+}
+
+#r2{
+  height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding: 5px;
+    margin:20px;
+}
+
+#r3{
+  height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding: 5px;
+    margin:20px;
+}
+
+#r4{
+  height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding: 5px;
+    margin:20px;
+}
+
+#r5{height: 50px;
+  width: 50px;
+  display: inline-block;
+  padding: 5px;
+  margin:20px;
+  }
+
+
+  
+/* Responsive Design */
+@media (max-width: 600px) {
+  .footer-content {
+      flex-direction: column;
+      text-align: center;
+  }
+
+}
+
