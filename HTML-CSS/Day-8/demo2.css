@@ -1,0 +1,215 @@
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display: inline-block;
+    margin: 10px;
+    background-image:linear-gradient(red,yellow,blue,purple,darkgrey);
+}
+
+
+.box2{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    margin: 10px;
+    display: inline-block;
+    background-image:conic-gradient(red,yellow,blue,purple,darkgrey);
+}
+
+
+
+.box3{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display: inline-block;
+    margin: 10px;
+    background-image:radial-gradient(red,yellow,blue,purple,darkgrey);
+}
+
+
+
+
+.box4{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display: inline-block;
+    margin: 10px;
+    background-image :linear-gradient(45deg,red,yellow,green,blue,purple);
+}
+
+
+
+.box5{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display: inline-block;
+    margin: 10px;
+    background-image: repeating-linear-gradient(red 5%,yellow 20%,green 25%,blue 5%,purple 30%,pink 15%);
+}
+
+
+
+
+.box6{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display: inline-block;
+    margin: 10px;
+    background-image: repeating-radial-gradient(red 5%,yellow 15%,green 25%,blue 10%,purple 30%,pink 25%);
+}
+
+
+
+
+.box7{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display: inline-block;
+    margin: 10px;
+    background-image: conic-radial-gradient(red 10%,yellow 20%, green,blue 15% purple 25%,pink 20%);
+}
+
+
+
+
+.box8{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display: inline-block;
+    margin: 10px;
+    background-image: repeating-radial-gradient(circle red 5%,yellow 10%,green 5% blue 10%,purple 5%);
+}
+
+
+
+
+.box9{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display: inline-block;
+    margin: 10px;
+    background-image: conic-gradient( red 0deg, yellow 50deg, green 20deg,grey 60deg);
+}
+
+
+
+.box10{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display: inline-block;
+    margin: 10px;
+    background-image: repeating-conic-gradient( red 0deg 10deg,  yellow 50deg 10deg, green 20deg 5deg,grey 60deg);
+
+}
+
+.box11{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display: inline-block;
+    margin: 10px;
+    background-image: linear-gradient(to bottom right,red,yellow,blue,purple,darkgreen,pink,white);
+}
+.box12{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display:inline-block;
+    margin: 10px;
+ background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url(".//");
+}
+
+
+
+
+.box13{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display:inline-block;
+    margin: 10px;
+ background-image:  ;
+}
+
+.box14{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display:inline-block;
+    margin: 10px;
+ background-image: ;
+}
+
+
+.box15{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display:inline-block;
+    margin: 10px;
+ background-image:;
+}
+
+
+
+.box16{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display:inline-block;
+    margin: 10px;
+ background-image:;
+}
+
+
+.box17{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display:inline-block;
+    margin: 10px;
+ background-image: ;
+}
+
+
+
+.box18{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display:inline-block;
+    margin: 10px;
+ background-image: ;
+}
+
+
+
+.box19{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display:inline-block;
+    margin: 10px;
+ background-image: ;
+}
+
+
+
+.box20{
+    height: 200px;
+    width: 200px;
+    border: 5px double black;
+    display:inline-block;
+    margin: 10px;
+ background-image: ;
+}
+

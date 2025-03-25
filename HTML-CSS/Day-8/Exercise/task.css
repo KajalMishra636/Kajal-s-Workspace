@@ -1,0 +1,61 @@
+body{
+   
+    border:5px double pink;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.box-hover{
+transform: scale(1);
+box-shadow: 10px 5px 5px red; 
+
+}
+
+
+.box1{
+    height: 300px;
+    width: 300px;
+    border: 5px double black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: inline-block;
+    background-image: repeating-linear-gradient(circle,yellow 10%, green 20%);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: inline-block;
+    background-image: radial-gradient(red 15%, green 50%, blue, white 20% ,pink  30%);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  
+}
+.box3{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: inline-block;
+    background-image: conic-gradient(pink,blue,red,white,green);
+
+}
