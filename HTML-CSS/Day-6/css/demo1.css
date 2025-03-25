@@ -1,0 +1,64 @@
+/* day 6 magical code*/
+
+body{
+    background-color: bisque;
+    margin: 30px;
+}
+ .box1{
+    background-color: rgb(240, 24, 24);
+    height:400px;
+    width: 400px;
+    padding: 50px;
+ }
+
+ .box2{
+    background-color:rgb(53, 53, 175);
+    height: 300px;
+    width: 300px;
+    padding:50px;
+ }
+
+
+ .box3{
+    background-color:rgb(43, 214, 43);
+    height:200px;
+    width:200px; 
+    padding:50px;
+ }
+
+
+ .box4{
+    background-color:rgb(211, 211, 36);
+    height: 100px;
+    width: 100px; 
+    padding: 50px;
+ }
+
+ .box5{
+    background-color:rgb(216, 46, 202) ;
+    height:50px;
+    width:50px ;
+    padding:35px;
+ }
+
+ img{
+    width: 50px ;
+    height: 50px;
+
+ }
+
+ .box22{
+    background-color:hsl(0,100%,50%);
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    display: inline-block;
+ }
+
+ .box23{
+    background-color: hsl(240,100%,50%);
+    height:100px;
+    width: 100px;
+    padding: 20px;
+    display: inline-block;
+ }

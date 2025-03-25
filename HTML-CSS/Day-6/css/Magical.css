@@ -1,0 +1,185 @@
+body{
+    background-color:rgb(53, 31, 71);
+    margin:20px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cda4e1;
+    padding: 10px 20px;
+    color: #a7e6f1;
+  }
+
+
+.logo img{
+    height: 70px;
+    width: auto;
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border: 10px solid black;
+    background-color: aliceblue;
+    border-radius:50% 20% / 10% 40%;;
+    display: inline-block;
+}
+
+.box2{
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border: 10px solid black;
+    background-color: aliceblue;
+    border-radius:50% 20% / 10% 40%;;
+    display: inline-block;
+   
+}
+
+.box3{
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:30px;
+    border:10px solid black;
+    background-color: antiquewhite;
+    border-radius: 50% 20% / 10% 40%;  
+    display:inline-block;
+}
+
+
+/*
+Class Selector
+
+*/
+.container1{
+    width:300px;
+    height: 300px;
+    padding: 20px;
+    display:inline-block;
+    border: none;
+    border-radius: 50%;
+    background: burlywood;
+    margin: 10px;
+}
+
+#i1{
+    border: none;
+    border-radius: 50%;
+    background: burlywood;
+    height:300;
+     width:300px;
+
+}
+
+
+#i2{
+    border: none;
+    border-radius: 50%;
+    background: burlywood;
+    height:300;
+     width:300px;
+}
+
+
+
+#i3{
+    border: none;
+    border-radius: 50%;
+    background: burlywood;
+    height:300;
+     width:300px;
+}
+
+
+
+
+
+h1{
+    color:antiquewhite;
+}
+
+h3{
+    text-align: center;
+    font-family: fantasy;
+    font-style:oblique 40deg;
+    font-weight: 300;
+    border: 2px thin pink;
+    outline: thick double pink;
+
+}
+
+h2{
+    font-size:30px;
+    margin: 30px;
+    padding: 20px;
+    background-color: burlywood;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 200;
+     font-display:unset ;
+     border: thick double #32a1ce;
+     border-radius: 10px;
+     text-align: center;
+     outline: thick double #32a1ce;
+     outline-offset:10px;
+     font-variant:small-caps;
+     font-style: oblique;
+}
+h3{
+    color: bisque;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+
+.footer{
+    color: cornflowerblue;
+
+}
+#in{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+#fb{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+#x{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+#em{
+    height: 50px;
+    width: 50px;
+    display:inline-block ;
+    margin: 10px;
+    padding: 10px;
+}
+
+#gh{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
