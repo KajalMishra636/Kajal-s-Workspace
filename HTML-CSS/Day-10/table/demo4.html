@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            font-family: 'Times New Roman', Times, serif;
+            border-collapse:collapse;
+            width: 100%;
+            margin: 20px;
+        }
+         td,th{
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding:8px ;
+         }
+         tr::nth-child(even){
+            background-color: rgb(177, 131, 221);
+         }
+
+         tr:hover{
+            background-color: burlywood;
+
+         }
+         /* Responsive Design */
+         @media(max-width:600px){
+            table,thead, tbody,th,td,tr{
+                display: block;
+            }
+            th{
+                position: absolute;
+                top:-9999px;
+                left: -9999px;
+
+            }
+            tr{
+                margin-bottom:15px ;
+            }
+            td {
+                text-align: right;
+                padding-left: 50% ;
+                position: relative;
+
+            }
+            td:before{
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                padding-left:10px;
+                text-align: left;
+            }
+         }
+            
+         
+
+
+    </style>
+</head>
+<body>
+
+    <h2></h2>
+
+    <!-- SEARCH BOX-->
+     <input type="text" id="searchInput"  onkeyup="filtertable()"
+     placeholder=" Search for the food item.." style="margin-bottom: 20px; padding: 10px; width: 100%;">
+     <table id="foodtable">
+        <thread>
+            <tr>
+              
+                <th scope="col">Sr.no</th>
+                <th scope="col">Food Item</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thread>
+        <tbody>
+            <tr>
+                <td data-label="Sr.no">1.</td>
+                <td data-label="Food Item">Rajma</td>
+                <td data-label="Price">60 Rs</td>
+            </tr>
+            <tr>
+                <td data-label="Sr.no">2.</td>
+                <td data-label="Food Item">Jeera Rice</td>
+                <td data-label="Price">50Rs</td>
+            </tr>
+
+            <tr>
+                <td data-label="Sr.no">3.</td>
+                <td data-label="Food Item">Chinese</td>
+                <td data-label="Price">75 Rs</td>
+            </tr>
+
+            <tr>
+                <td data-label="Sr.no">4.</td>
+                <td data-label="Food Item">Soup</td>
+                <td data-label="Price">80 Rs</td>
+            </tr>
+
+            <tr>
+                <td data-label="Sr.no">5.</td>
+                <td data-label="Food Item">Chappati</td>
+                <td data-label="Price">30 Rs</td>
+            </tr>
+
+            <tr>
+                <td data-label="Sr.no">6.</td>
+                <td data-label="Food Item">Panner-Fry</td>
+                <td data-label="Price">90 Rs</td>
+            </tr>
+
+
+        </tbody>
+    
+</body>
+
+</html>
